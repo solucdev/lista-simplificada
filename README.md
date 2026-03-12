@@ -18,10 +18,6 @@ Tecnologias
 - CSS3
 - JavaScript (Vanilla)
 
-🚀 Como usar
-
 Basta abrir o arquivo `index.html` no navegador. Nenhuma instalação necessária.
 
-👨‍💻 Autor
-
-Feito por Lucas Martins — projeto de estudo de JavaScript e DOM.
+Projeto de estudo de JavaScript e DOM.
