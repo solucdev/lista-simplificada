@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Lista de Atividades Simplificada</h1>
+
+    <div class="input-area">
+    <input id="field" type="text" placeholder="Nomeie a tarefa (Ex: 10 Exercícios)...">
+    <input id="field-subject" type="text" placeholder="Digite a matéria (Ex: Matemática)...">
+    <select id="type">
+        <option value="Seminário">Seminário</option>
+        <option value="Pesquisa">Pesquisa</option>
+        <option value="Redação">Redação</option>
+        <option value="Questões">Lista de Questões</option>
+    </select>
+    <select id="people">
+        <option value="Individual">Individual</option>
+        <option value="Dupla">Dupla</option>
+        <option value="3-4 Integrantes">3-4 Integrantes</option>
+        <option value="5+ Integrantes">5+ Integrantes</option>
+    </select>
+    <input type="date" id="delivery">
+    </div>
+
+      <button id="btn">Confirmar</button>
+
+    <ul id="list"></ul>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
