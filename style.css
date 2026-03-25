@@ -8,6 +8,7 @@ body {
     align-items: center;
     background-color: #151b2b;
     color: #ffffff;
+     font-family: 'Syne', sans-serif;
 }
 
 h1 {
@@ -16,17 +17,19 @@ h1 {
 }
 
 .container {
-    background-color: #394e6b;
+    background-color: #0d3d58;
     padding: 32px;
     border-radius: 16px;
-    max-width: 480px;
+    max-width: 900px;
     margin: 40px auto;
 }
 
 .input-area {
     display: flex;
-    gap: 8px;
-    margin-bottom: 24px;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 12px;
+    margin-top: 4px;
 }
 
 input {
@@ -38,6 +41,17 @@ input {
     color: #ffffff;
 }
 
+select {
+    flex: 1;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background: #1a1a24;
+    color: #ffffff;
+    appearance: none;
+}
+
+
 #btn {
     padding: 10px 18px;
     border-radius: 8px;
@@ -46,9 +60,13 @@ input {
     color: white;
     font-weight: 700;
     cursor: pointer;
+    margin-bottom: 12px;
 }
 
 .xbtn {
+        position: absolute;
+    top: 8px;
+    right: 10px;
     font-size: 10px;
     background: rgba(160, 5, 5, 0);
     color: rgb(206, 92, 92);
@@ -63,11 +81,29 @@ input {
 }
 
 li {
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 10px 14px;
     background: #1a1a24;
     border-radius: 8px;
     margin-bottom: 8px;
+}
+
+.task-name {
+    display: block;
+}
+
+.badges {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.badge {
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
 }
